@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+:root {
+
+    /* Color Definition */
+    --primary: #15aae5;
+    --secondary: #063141;
+    --primary_text: #ffffff;
+    --secondary_text:#2f3137;
+    --backgrd:#50add1;
+    --neutral:#e6e6eb;
+    --neutral-lightest:#f7f8fa;
+
+    /* Font */
+
+    --size: 1rem;
+    --family: 'open Sans', sans-serif;
+
+}
+
+p{
+    font-size: var(--size);
+    font-family:var(--family);
+}
