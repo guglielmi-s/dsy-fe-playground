@@ -1,14 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-}
-
 :root {
 
     /* Color Definition */
     --primary: #15aae5;
-    --secondary: #063141;
+    --bg-navbar: #063141;
+    --bg-navbar-search: hsla(0, 0%, 100%, 0.15);
+    --text-navbar-search: hsla(0, 0%, 100%, 0.3);
     --primary_text: #ffffff;
     --secondary_text:#2f3137;
     --backgrd:#50add1;
@@ -16,13 +12,11 @@
     --neutral-lightest:#f7f8fa;
 
     /* Font */
-
     --size: 1rem;
-    --family: 'open Sans', sans-serif;
+    --family: 'Open Sans', sans-serif;
+    --bold: bold;
 
+    /**/
 }
 
-p{
-    font-size: var(--size);
-    font-family:var(--family);
-}
+
