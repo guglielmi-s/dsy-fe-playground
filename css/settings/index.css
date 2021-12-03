@@ -1,9 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-size: 100%;
-}
-
 :root {
 
     /* Color Definition */
@@ -16,7 +10,6 @@
     --neutral-lightest:#f7f8fa;
 
     /* Font */
-
     --size: 1rem;
     --family: 'open Sans', sans-serif;
 
