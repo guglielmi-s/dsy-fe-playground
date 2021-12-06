@@ -4,8 +4,8 @@
 }
 
 .searchForm__navbar {
-    padding: calc(var(--size) - 0.6rem) ;
-    height: calc(var(--size) + 1rem);
+    padding: calc(var(--size) - 0.2rem) ;
+    height: calc(var(--size) + 1.5rem);
     width: calc(var(--size) + 13rem);
     border: none;
     border-radius: calc(var(--size) - 0.5rem);
@@ -14,8 +14,7 @@
 }
 
 .searchForm__input {
-    padding: calc(var(--size) - 0.5rem) ;
-    
+    padding: calc(var(--size) - 0.2rem) ;
     font-size: calc(var(--size) - 0.2rem);
     font-family: var(--family);
     height: calc(var(--size) + 2.1rem);
