@@ -1,4 +1,4 @@
-.container--header {
+.headerContainer {
     height: calc(var(--size) + 35rem);
     background-color: var(--primary);
     display: flex;
@@ -7,13 +7,35 @@
     align-items: center;
     color: var(--primary_text)
 }
-.container--input {
-    
-}
-.input--header{
-    height: 48px;
-    width: 658px;
-    margin: 20px ;
-    border-radius: 4px;
+
+.headerContainerBox__input{
+    height: calc(var(--size) + 2rem);
+    width: calc(var(--size) + 40rem);
+    margin: calc(var(--size) + 0.3rem);
+    border-radius: calc(var(--size) - 0.7rem);
     border: none; 
+}
+
+.headerContainer p {
+    font-size: calc(var(--size) - 0.4rem);
+    margin-top: calc(var(--size) + 2rem)
+}
+
+.header__list{
+    display: flex;
+    flex-direction: row;
+    margin: calc(var(--size) - 0.4rem);
+} 
+
+.header__list a{
+    color: var(--primary_text);
+    background-color: var(--bg-navbar);
+    padding-top: calc(var(--size) - 0.7rem);
+    padding-bottom: calc(var(--size) - 0.7rem);
+    padding-left: calc(var(--size) - 0.1rem);
+    padding-right: calc(var(--size) - 0.1rem);
+    margin: calc(var(--size) -0.4rem);
+    border-radius: calc(var(--size) + 0.3rem);
+    text-decoration: none;
+    font-size:calc(var(--size) - 0.4rem);
 }
