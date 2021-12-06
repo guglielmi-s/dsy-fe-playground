@@ -8,14 +8,14 @@
     color: var(--primary_text)
 }
 
-.headerContainerBox__input{
+/* .headerContainerBox__input{
     height: calc(var(--size) + 2rem);
     width: calc(var(--size) + 40rem);
     margin: calc(var(--size) + 0.3rem);
     border-radius: calc(var(--size) - 0.7rem);
     border: none; 
 }
-
+ */
 .headerContainer p {
     font-size: calc(var(--size) - 0.4rem);
     margin-top: calc(var(--size) + 2rem)

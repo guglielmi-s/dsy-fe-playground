@@ -4,6 +4,7 @@
 
     /* Color Definition */
     --primary: #15aae5;
+    --primary-lg:#E3F5FC;
     --bg-navbar: #063141;
     --bg-navbar-search: hsla(0, 0%, 100%, 0.15);
     --text-navbar-search: hsla(0, 0%, 100%, 0.3);
