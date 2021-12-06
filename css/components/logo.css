@@ -1,0 +1,4 @@
+.logo{
+    height: calc(var(--size) + 0.9rem);
+    width: calc(var(--size) + 5.3rem);
+}

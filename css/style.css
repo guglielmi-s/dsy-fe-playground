@@ -3,5 +3,6 @@
 @import url(./elements/element.css);
 @import url(./objects/btn.css);
 @import url(./components/navbar.css);
+@import url(./components/logo.css);
 @import url(./components/header.css);
 @import url(./components/searchForm.css);
