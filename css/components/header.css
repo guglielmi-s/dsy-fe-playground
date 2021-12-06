@@ -1,7 +1,7 @@
 .headerContainer {
     font-family: var(--family);
     height: calc(var(--size) + 35rem);
-    background-image: radial-gradient(var(--bg-navbar) 5%, var(--primary) 90%);
+    background-image: radial-gradient(var(--primary) 9%, var(--bg-navbar) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;

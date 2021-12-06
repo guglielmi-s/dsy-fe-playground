@@ -8,8 +8,10 @@
     --bg-navbar: #063141;
     --bg-navbar-search: hsla(0, 0%, 100%, 0.15);
     --text-navbar-search: hsla(0, 0%, 100%, 0.3);
+    --gradient-color: rgba(82, 173, 209, 0.15);
     --primary_text: #ffffff;
     --secondary_text:#2f3137;
+    --secondary_text-lg: #9497A3;
     --backgrd:#50add1;
     --neutral:#e6e6eb;
     --neutral-lightest:#f7f8fa;

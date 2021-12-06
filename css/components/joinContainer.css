@@ -1,0 +1,6 @@
+.joinContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    padding: 50px;
+    background-image: linear-gradient(var(--primary),white);
+}
