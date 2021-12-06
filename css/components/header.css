@@ -1,0 +1,16 @@
+.container--header {
+    height: calc(var(--size) + 35rem);
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary_text)
+}
+.input--header {
+    height: 48px;
+    width: 658px;
+    margin: 20px ;
+    border-radius: 4px;
+    border: none;
+}

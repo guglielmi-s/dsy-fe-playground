@@ -1,0 +1,27 @@
+.btn--noBorder {
+    border: none;
+    background-color: inherit;
+    color: var(--primary_text);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.btn--primary {
+    height: 36px;
+    width: 100px;
+   
+    border-radius: 4px;
+    padding: 8px 12px;
+    background-color: var(--primary);
+    color: var(--primary_text);
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+}

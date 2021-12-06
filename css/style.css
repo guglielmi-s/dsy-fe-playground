@@ -1,5 +1,7 @@
 @import url(./settings/index.css);
 @import url(./generics/gen.css);
 @import url(./elements/element.css);
-@import url(./components/navbar.css)
+@import url(./objects/btn.css);
+@import url(./components/navbar.css);
+@import url(./components/header.css);
 
