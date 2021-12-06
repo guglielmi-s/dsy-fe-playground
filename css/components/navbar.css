@@ -34,3 +34,8 @@
     height: calc(var(--size) + 0.8rem);
     width: calc(var(--size) + 5rem);
 }
+
+.navbar__btnBox {
+    display: flex;
+    flex-direction: row;
+}
