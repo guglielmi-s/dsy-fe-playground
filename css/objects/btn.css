@@ -25,3 +25,14 @@
     font-size: 12px;
     line-height: 20px;
 }
+
+.btn--event{
+    border: 1px solid #9497A3;
+    background-color: inherit;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: calc(var(--size) - 0.2rem);
+    color: var(--primary);
+    font-weight: 600;
+}
