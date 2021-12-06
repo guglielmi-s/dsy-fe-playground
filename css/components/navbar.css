@@ -16,6 +16,8 @@
 }
 
 .navbar__list a {
+    font-family: var(--family);
+    font-size: calc(var(--size) - 0.2rem);
     color: var(--primary_text);
     text-decoration: none;
     margin-right: calc(var(--size) + 2rem)
