@@ -23,7 +23,7 @@
 .events__card{
     background-color: var(--primary_text);
     border-radius: 4px;
-    padding: 5px;
+    padding: 10px;
     margin: 0px 20px;
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@
 .events__calendar{
     border: 1px solid #9497A3;
     border-radius: 4px;
-    padding: 10px;
+    padding: 8px 10px;
     text-align: center;
     margin: 0px 5px;
     text-transform: uppercase;
@@ -53,7 +53,7 @@
 }
 
 .events__details p {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .events__details :nth-child(1){
