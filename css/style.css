@@ -177,13 +177,13 @@ h2 {
 }
 .btn--primary {
   width: 100%;
-  background-color: var(--primary);
+  background-color: #15aae5;
   color: var(--primary_text);
 }
 .btn--event {
-  border: 1px solid #9497a3;
+  border: 1px solid #363232;
   font-size: calc(var(--size) - 0.2rem);
-  color: var(--primary);
+  color: #15aae5;
   padding: calc(var(--size) - 0.7rem);
 }
 .navbar {
