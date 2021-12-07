@@ -43,10 +43,9 @@
     
 }
 .card--comunity{
-    max-width: 355px;
+    max-width: 380px;
     display: flex;
     flex-direction: column;
-    
     margin: 10px;
 }
 .card--comunity > p{
