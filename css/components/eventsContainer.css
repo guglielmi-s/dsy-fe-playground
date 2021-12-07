@@ -1,0 +1,19 @@
+.eventsContainer{
+    padding: 30px;
+    height: 160px;
+    background-image: radial-gradient(var(--primary) 9%, var(--bg-navbar) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--family);
+}
+
+.eventsContainer > p {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+

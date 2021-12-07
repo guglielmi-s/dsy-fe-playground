@@ -23,7 +23,7 @@
 
   <body>
     <!-- Add your site or application content here -->
-    <header class="header">
+    <header>
       <nav class="navbar">
         <img src="./img/DocsityLogo.png" alt="logo" class="logo" />
         <form class="searchForm">
@@ -42,8 +42,8 @@
         </ul>
 
         <div class="navbar__btnBox">
-          <button class="btn--noBorder">ACCEDI</button>
-          <button class="btn--primary" type="submit">Registrati</button>
+          <button class="btn btn--noBorder">ACCEDI</button>
+          <button class="btn btn--primary" type="submit">Registrati</button>
         </div>
       </nav>
 
@@ -60,7 +60,7 @@
         </form>
         <p>OPPURE ESPLORA</p>
         <div>
-          <ul class="header__list">
+          <ul class="headerContainer__list">
             <li><a href="">Documenti</a></li>
             <li><a href="">Quiz</a></li>
             <li><a href="">Domande e risposte</a></li>
@@ -70,6 +70,7 @@
         </div>
       </div>
     </header>
+
     <div class="joinContainer">
       <div class="card card__up">
         <p class="card__title">
@@ -87,78 +88,79 @@
           condividendo le proprie esperienze e i propri documenti su Docsity
         </p>
       </div>
-      <div class="card__btn">
-        <button class="btn--primary">Unisciti a noi</button>
+      <div class="joinContainer__footer">
+        <button class="btn btn--primary">Unisciti a noi</button>
         <p>Inizia a esplorare, è gratis!</p>
       </div>
     </div>
-    <div>
+
+    <div class="partnerContainer">
+      <p>Siamo partner delle migliori università del mondo</p>
+      <div class="partnerContainer__logoBox">
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+        <span>LOGO</span>
+      </div>
+    </div>
+
+    <div class="eventsContainer">
+      <p>
+        Partecipa ai nostri webinar e eventi formativi organizzati con i nostri
+        partner
+      </p>
+      <div class="carousel">
+        <div class="cardEvents">
+          <div class="cardEvents__calendar">
+            <p>Lun</p>
+            <p>03</p>
+            <p>Ago</p>
+          </div>
+          <div class="cardEvents__details">
+            <p>Virtual Open Week</p>
+            <p>Università degli Studi di Milano</p>
+            <button class="btn btn--event">Vedi Evento</button>
+          </div>
+        </div>
+
+        <div class="cardEvents">
+          <div class="cardEvents__calendar">
+            <p>Lun</p>
+            <p>03</p>
+            <p>Ago</p>
+          </div>
+          <div class="cardEvents__details">
+            <p>Virtual Open Week</p>
+            <p>Università degli Studi di Milano</p>
+            <button class="btn btn--event">Vedi Evento</button>
+          </div>
+        </div>
+
+        <div class="cardEvents">
+          <div class="cardEvents__calendar">
+            <p>Lun</p>
+            <p>03</p>
+            <p>Ago</p>
+          </div>
+          <div class="cardEvents__details">
+            <p>Virtual Open Week</p>
+            <p>Università degli Studi di Milano</p>
+            <button class="btn btn--event">Vedi Evento</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pressContainer">
       
-      <div class="partnerContainer">
-        <p>Siamo partner delle migliori università del mondo</p>
-        <div class="partnerContainer__logoBox">
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-          <span>LOGO</span>
-        </div>
-
-      </div>
-
-      <div class="events">
-        <p>Partecipa ai nostri webinar e eventi formativi organizzati con i nostri partner</p>
-        <div class="events__carousel">
-          <div class="events__card">
-            <div class="events__calendar">
-              <p>Lun</p>
-              <p>03</p>
-              <p>Ago</p>
-            </div>
-            <div class="events__details">
-              <p>Virtual Open Week</p>
-              <p>Università degli Studi di Milano</p>
-              <button class="btn--event">Vedi Evento</button>
-            </div>
-          </div>
-
-          <div class="events__card">
-            <div class="events__calendar">
-              <p>Lun</p>
-              <p>03</p>
-              <p>Ago</p>
-            </div>
-            <div class="events__details">
-              <p>Virtual Open Week</p>
-              <p>Università degli Studi di Milano</p>
-              <button class="btn--event">Vedi Evento</button>
-            </div>
-          </div>
-
-          <div class="events__card">
-            <div class="events__calendar">
-              <p>Lun</p>
-              <p>03</p>
-              <p>Ago</p>
-            </div>
-            <div class="events__details">
-              <p>Virtual Open Week</p>
-              <p>Università degli Studi di Milano</p>
-              <button class="btn--event">Vedi Evento</button>
-            </div>
-          </div>
-          
-          
-        </div>
-      </div>
-
     </div>
 
     <script src="js/vendor/modernizr-3.11.8.min.js"></script>

@@ -34,13 +34,3 @@
     font-size: calc(var(--size) + 0.4rem);
     font-weight: 400;
 }
-.card__btn{
-    margin-top: 50px;
-    grid-column-start: 6 ;
-    grid-column-end: 7 ;
-   
-}
-.card__btn p {
-    font-size: calc(var(--size) - 0.3rem);
-    color: var(--secondary_text-lg)
-}

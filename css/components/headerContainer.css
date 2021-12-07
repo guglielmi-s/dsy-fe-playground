@@ -9,20 +9,12 @@
     color: var(--primary_text)
 }
 
-/* .headerContainerBox__input{
-    height: calc(var(--size) + 2rem);
-    width: calc(var(--size) + 40rem);
-    margin: calc(var(--size) + 0.3rem);
-    border-radius: calc(var(--size) - 0.7rem);
-    border: none; 
-}
- */
 .headerContainer p {
     font-size: calc(var(--size) - 0.4rem);
     margin-top: calc(var(--size) + 2rem)
 }
 
-.header__list {
+.headerContainer__list {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,7 +22,7 @@
     margin: calc(var(--size) - 0.6rem);
 }
 
-.header__list a {
+.headerContainer__list a {
     color: var(--primary_text);
     background-color: var(--bg-navbar);
     padding: calc(var(--size) - 0.7rem) calc(var(--size) - 0.1rem) ;

@@ -1,12 +1,14 @@
 @import url(./settings/index.css);
 @import url(./generics/gen.css);
 @import url(./elements/element.css);
-@import url(./objects/btn.css);
+@import url(./components/btn.css);
 @import url(./components/navbar.css);
 @import url(./components/logo.css);
-@import url(./components/header.css);
+@import url(./components/headerContainer.css);
 @import url(./components/searchForm.css);
 @import url(./components/joinContainer.css);
 @import url(./components/card.css);
 @import url(./components/partnerContainer.css);
-@import url(./components/events.css);
+@import url(./components/eventsContainer.css);
+@import url(./components/carousel.css);
+@import url(./components/cardEvents.css);

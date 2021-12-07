@@ -19,8 +19,8 @@
     /* Font */
     --size: 1rem;
     --family: 'Open Sans', sans-serif;
-    --bold: bold;
-    --small: lighter;
+    --bold: 600;
+    --small: 400;
 
     /**/
 }
