@@ -14,5 +14,7 @@
 
 .joinContainer__footer p {
     font-size: calc(var(--size) - 0.3rem);
-    color: var(--secondary_text-lg)
+    color: var(--secondary_text-lg);
+    margin: calc(var(--size) - 0.3rem) 0rem
+
 }

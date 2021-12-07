@@ -12,15 +12,17 @@
 .cardEvents__calendar{
     border: 1px solid #9497A3;
     border-radius: 4px;
-    padding: 8px 10px;
+  
     text-align: center;
     margin: 0px 5px;
     text-transform: uppercase;
     font-size: calc(var(--size) - 0.2rem);
+    padding: calc(var(--size) - 0.3rem);
 }
 
 .cardEvents__calendar :nth-child(2){
     font-size: calc(var(--size) + 1rem);
+    
 }
 
 .cardEvents__details{

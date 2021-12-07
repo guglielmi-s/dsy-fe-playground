@@ -4,13 +4,13 @@
     border-radius: 12px;
     padding: 36px;
     box-shadow: 0px 2px 15px 0px #00000014, 0px 0px 1px 0px #0000000D;
-    background-color: var(--neutral);
+    background-color: var(--primary_text);
 }
 
 .card__up {
     grid-column-start: 2;
     grid-column-end: 7;
-    background-color: var(--neutral);
+ 
    
   
 }
@@ -33,4 +33,33 @@
     margin: calc(var(--size) + 0.5rem);
     font-size: calc(var(--size) + 0.4rem);
     font-weight: 400;
+}
+
+.card__author{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card--comunity{
+    max-width: 355px;
+    display: flex;
+    flex-direction: column;
+    
+    margin: 10px;
+}
+.card--comunity > p{
+    font-size: calc(var(--size) - 0.1rem);
+    font-style: italic;
+    line-height: calc(var(--size) + 0.3rem)
+    
+}
+
+.card__footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
 }
