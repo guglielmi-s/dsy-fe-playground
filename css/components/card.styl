@@ -1,36 +1,36 @@
-.card {
-    font-family: var(--family);
-    margin-bottom: 50px;
-    border-radius: 12px;
-    padding: 36px;
-    box-shadow: 0px 2px 15px 0px #00000014, 0px 0px 1px 0px #0000000D;
-    background-color: var(--neutral);
-}
+.card 
+    font-family var(--family)
+    margin-bottom 50px
+    border-radius 12px
+    padding 36px
+    box-shadow 0px 2px 15px 0px #00000014, 0px 0px 1px 0px #0000000D
+    background-color var(--neutral)
 
-.card__up {
-    grid-column-start: 2;
-    grid-column-end: 7;
-    background-color: var(--neutral);
+
+    &__title 
+        margin calc(var(--size) + 0.5rem)
+        font-size calc(var(--size) + 0.5rem)
+        font-weight 600
+
+
+
+    &__paragraph 
+        margin calc(var(--size) + 0.5rem)
+        font-size calc(var(--size) + 0.4rem)
+        font-weight 400
+
+
+    &--up 
+        grid-column-start 2
+        grid-column-end 7
+        background-color var(--neutral)
    
-  
-}
 
-.card__down {
-    grid-column-start: 6;
-    grid-column-end: 11;
+    &--down 
+        grid-column-start 6
+        grid-column-end 11
     
    
-}
 
-.card__title {
-    margin: calc(var(--size) + 0.5rem);
-    font-size: calc(var(--size) + 0.5rem);
-    font-weight: 600;
 
-}
 
-.card__paragraph {
-    margin: calc(var(--size) + 0.5rem);
-    font-size: calc(var(--size) + 0.4rem);
-    font-weight: 400;
-}
