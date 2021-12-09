@@ -346,8 +346,6 @@ h2 {
   margin: 1.5rem;
 }
 .partnerContainer__logoBox {
-  margin: 1.5rem 2.25rem;
-  padding: 1.625rem;
   display: flex;
   flex-direction: row;
   align-items: center;
