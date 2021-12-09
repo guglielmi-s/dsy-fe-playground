@@ -292,7 +292,8 @@ h2 {
   margin-bottom: 3.125rem;
   border-radius: 0.75rem;
   padding: 2.25rem;
-  box-shadow: 0px 2px 15px 0px #e4e4e4;
+  box-shadow: 0px 0px 1px rgba(0,0,0,0.051);
+  box-shadow: 0px 1px 15px rgba(0,0,0,0.078);
   background-color: #fff;
 }
 .card__title {
@@ -362,7 +363,7 @@ h2 {
 .eventsContainer {
   padding: 30px;
   height: 160px;
-  background-image: radial-gradient(var(--primary) 9%, var(--bg-navbar) 100%);
+  background-image: url("../img/bgImage.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -373,6 +374,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   color: #fff;
+  font-size: 1.125rem;
 }
 .carousel {
   display: flex;
@@ -388,11 +390,12 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 .cardEvents__calendar {
-  border: 1px solid #9497a4;
+  border: 1px solid #d6d7dc;
   border-radius: 0.25rem;
-  padding: 0.625rem 0.625rem;
+  padding: 0.9375rem 0.625rem;
   text-align: center;
   margin: 0 0.3125rem;
   text-transform: uppercase;
@@ -407,13 +410,25 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+padding
 }
 .cardEvents__details p {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8125rem;
 }
 .cardEvents__details :nth-child(1) {
   font-weight: 600;
   font-size: 1.125rem;
+}
+.cardEvents__bordino {
+  background-color: rgba(253,236,240,0.5);
+  position: absolute;
+  z-index: 4;
+  top: 10px;
+  left: 15px;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid rgba(242,120,149,0.3);
+  width: 60px;
+  height: 14px;
 }
 .pressContainer {
   height: 10rem;

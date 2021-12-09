@@ -1,19 +1,22 @@
-.eventsContainer{
-    padding: 30px;
-    height: 160px;
-    background-image: radial-gradient(var(--primary) 9%, var(--bg-navbar) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: var(--family);
-}
+@require "./tools/function/pxToRem"
+.eventsContainer
+    padding 30px
+    height 160px
+    background-image url("../img/bgImage.png")
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+    font-family var(--family)
 
-.eventsContainer > p {
-    margin-bottom: 30px;
-    text-align: center;
-    color: #ffffff;
-}
+
+.eventsContainer > p 
+    margin-bottom 30px
+    text-align center
+    color $dsy-primary_text
+    font-size pxToRem(18)
+   
+
 
 
 

@@ -8,16 +8,19 @@
     flex-direction row
     justify-content space-around
     align-items center
-
+    position relative
 
     &__calendar
-        border 1px solid hsl(228, 8%, 61%)
+        border 1px solid hsl(230, 8%, 85%)
         border-radius pxToRem(4)
-        padding pxToRem(10) pxToRem(10)
+        padding pxToRem(15) pxToRem(10)
         text-align center
         margin 0 pxToRem(5)
         text-transform uppercase
         font-size pxToRem(12)
+        
+
+   
 
 
     &__calendar :nth-child(2)
@@ -26,16 +29,32 @@
 
 
     &__details
+        
         display flex
         flex-direction column
         justify-content space-around
         align-items flex-start
+        padding 
 
 
     &__details p 
-        margin-bottom pxToRem(8)
+        margin-bottom pxToRem(13)
     
     &__details :nth-child(1)
         font-weight $dsy-weight-bold
         font-size pxToRem(18)
 
+    &__bordino 
+        background-color rgba(253, 236, 240, 0.5)
+        position absolute 
+        z-index  4
+        top 10px
+        left 15px
+        border-radius 4px 4px 0px 0px
+        border 1px solid rgba(242, 120, 149, 0.3) 
+        
+
+
+
+        width 60px
+        height 14px
