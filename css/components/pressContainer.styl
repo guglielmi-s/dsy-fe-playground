@@ -1,29 +1,28 @@
-.pressContainer {
-    height: calc(var(--size) * 10rem);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: var(--size);
-}
+.pressContainer 
+    height $dsy-size * 10rem
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+    padding $dsy-size
+
+    &__logoList 
+        display flex
+        flex-direction row
+        justify-content space-evenly
+        align-items center
+
+
+
+    &__logoList img
+        width $dsy-size + 8rem
+        margin 0rem $dsy-size - 0.3rem
+
 
 .pressContainer p {
-    margin: calc(var(--size) + 0.5rem);
-    text-transform: uppercase;
-    font-size: calc(var(--size) - 0.1rem);
-    color: var(--secondary_text-lg);
-}
+    margin $dsy-size + 0.5rem
+    text-transform uppercase
+    font-size $dsy-size - 0.1rem
+    color $dsy-secondary_text-lg
 
-.pressContainer__logoList {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-
-.pressContainer__logoList img{
-    width: calc(var(--size) + 8rem);
-    margin: 0rem calc(var(--size) - 0.3rem);
-}
 
