@@ -1,7 +1,9 @@
+@require "./tools/function/pxToRem"
+
 .headerContainer 
     font-family $dsy-family
-    line-height $dsy-size + 2rem
-    height $dsy-size + 35rem
+    line-height pxToRem(42)
+    height pxToRem(720)
     background-image radial-gradient($dsy-primary 9%, $dsy-bg-navbar 100%)
     display flex
     flex-direction column
@@ -14,17 +16,26 @@
         flex-direction row
         justify-content space-between
         align-items center
-        margin $dsy-size - 0.6rem
+        margin pxToRem(24)
 
 
     &__list a 
         color $dsy-primary_text
         background-color $dsy-bg-navbar
-        padding $dsy-size - 0.7rem $dsy-size - 0.1rem
-        margin $dsy-size - 0.4rem
-        border-radius $dsy-size + 0.3rem
+        padding pxToRem(6) pxToRem(12) 
+        margin pxToRem(12)
+        border-radius pxToRem(17)
         text-decoration none
-        font-size $dsy-size - 0.4rem
+        font-size pxToRem(12)
+        font-weight $dsy-weight-small
+
+.headerContainer h1 
+        font-size pxToRem(34)
+        font-weight $dsy-weight-bold    
+
+.headerContainer  h2
+        font-size pxToRem(34)
+        font-weight $dsy-weight-small   
 
 .headerContainer p
         font-size $dsy-size - 0.4rem

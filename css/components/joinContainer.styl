@@ -1,17 +1,20 @@
+@require "./tools/function/pxToRem"
 .joinContainer
     display grid
+    width 100%
     grid-template-columns repeat(12, 1fr)
-    padding 50px
+    margin-top pxToRem(144)
     background-image linear-gradient $dsy-gradient-color  $dsy-primary_text
 
 
     &__footer
-        margin-top 50px
+        margin-top pxToRem(50)
         grid-column-start 6 
         grid-column-end 7 
    
 
 
     &__footer p 
-        font-size $dsy-size - 0.3rem
+        font-size pxToRem(12)
         color $dsy-secondary_text-lg
+        font-weight 400 

@@ -1,15 +1,24 @@
-.partnerContainer {
-  width: 100%;
-  height: 60px;
-  font-family: var(--family);
-}
+@require "./tools/function/pxToRem"
+.partnerContainer 
+  display flex 
+  flex-direction column 
+  align-items center 
+  justify-content space-between
+  margin pxToRem(24)
 
-.partnerContainer p {
-  text-align: center;
-  font-weight: var(--bold);
-  font-size: calc(var(--size) + 0.5rem);
-}
+  &__logoBox
+      margin pxToRem(24) pxToRem(36)
+      padding pxToRem(16)
+      display flex 
+      flex-direction row 
+      align-items center 
+      justify-content space-between
 
-.partnerContainer__logoBox{
-text-align: center;
-}
+.partnerContainer p 
+  margin pxToRem(48)
+  text-align center
+  font-weight $dsy-weight-bold 
+  font-size pxToRem(26)
+
+
+

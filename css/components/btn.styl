@@ -1,22 +1,26 @@
+
+@require "./tools/function/pxToRem"
 .btn
+	width 100%
 	cursor pointer
 	text-transform uppercase
-	font-size $dsy-size - 0.4rem
-	line-height $dsy-size + 0.4rem
+	font-size pxToRem(12)
+	line-height pxToRem(20)
 	background-color inherit
 	border none
-	border-radius $dsy-size - 0.7rem
-	padding $dsy-size - 0.5rem $dsy-size - 0.2rem
+	border-radius pxToRem(4)
+	padding pxToRem(8) pxToRem(12)
 	font-weight $dsy-bold
 
 	&--noBorder
 		color $dsy-primary_text
-		font-weight $dsy-small
+		font-weight $dsy-weight-small
 
 	&--primary
-		width 100%
+		
 		background-color $dsy-primary
 		color $dsy-primary_text
+		font-weight $dsy-weight-bold
 
 	&--event
 		border 1px solid $dsy-secondary_text-lg
