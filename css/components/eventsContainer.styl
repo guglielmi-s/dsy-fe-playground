@@ -1,17 +1,16 @@
-@require "./tools/function/pxToRem"
 .eventsContainer
-    padding 30px
-    height 160px
+    padding pxToRem(30)
+    height pxToRem(160)
     background-image url("../img/bgImage.png")
     display flex
     flex-direction column
     justify-content center
     align-items center
-    font-family var(--family)
+    font-family $dsy-family
 
 
 .eventsContainer > p 
-    margin-bottom 30px
+    margin-bottom pxToRem(30)
     text-align center
     color $dsy-primary_text
     font-size pxToRem(18)

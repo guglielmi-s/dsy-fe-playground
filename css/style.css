@@ -292,7 +292,6 @@ h2 {
   margin-bottom: 3.125rem;
   border-radius: 0.75rem;
   padding: 2.25rem;
-  box-shadow: 0px 0px 1px rgba(0,0,0,0.051);
   box-shadow: 0px 1px 15px rgba(0,0,0,0.078);
   background-color: #fff;
 }
@@ -361,17 +360,17 @@ h2 {
   font-size: 1.625rem;
 }
 .eventsContainer {
-  padding: 30px;
-  height: 160px;
+  padding: 1.875rem;
+  height: 10rem;
   background-image: url("../img/bgImage.png");
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: var(--family);
+  font-family: 'Open Sans', sans-serif;
 }
 .eventsContainer > p {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   text-align: center;
   color: #fff;
   font-size: 1.125rem;
@@ -400,6 +399,7 @@ h2 {
   margin: 0 0.3125rem;
   text-transform: uppercase;
   font-size: 0.75rem;
+  position: relative;
 }
 .cardEvents__calendar :nth-child(2) {
   font-size: 2.125rem;
@@ -408,9 +408,8 @@ h2 {
 .cardEvents__details {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: flex-start;
-padding
 }
 .cardEvents__details p {
   margin-bottom: 0.8125rem;
@@ -420,13 +419,14 @@ padding
   font-size: 1.125rem;
 }
 .cardEvents__bordino {
-  background-color: rgba(253,236,240,0.5);
+  background-color: rgba(253,236,240,0.502);
   position: absolute;
   z-index: 4;
-  top: 10px;
-  left: 15px;
+  top: 0;
+  left: 0;
+  margin-bottom: 5px;
   border-radius: 4px 4px 0px 0px;
-  border: 1px solid rgba(242,120,149,0.3);
+  border-bottom: 1px solid rgba(242,120,149,0.3);
   width: 60px;
   height: 14px;
 }
