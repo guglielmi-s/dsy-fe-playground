@@ -23,6 +23,13 @@
         font-size pxToRem(24)
         font-weight $dsy-weight-small
 
+    &__footer
+        display flex
+        flex-direction row
+        justify-content space-between
+        align-items center
+        margin-top pxToRem(30)
+
 
     &--up 
         grid-column-start 2
@@ -34,6 +41,25 @@
         grid-column-end 11
     
    
+    &__author
+        display flex
+        flex-direction row
+        justify-content center
+        align-items center
+    
+
+    &--comunity
+        max-width pxToRem(380)
+        display flex
+        flex-direction column
+        margin pxToRem(10)
+
+    &--comunity 
+        > p
+            font-size pxToRem(14)
+            font-style: italic;
+            line-height pxToRem(22)
+    
 
 
 
