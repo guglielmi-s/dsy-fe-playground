@@ -122,22 +122,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-* {
-  font-family: var(--family);
-  font-size: var(--size);
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 nav >ul {
-  font-size: calc(var(--size) - 0.1rem);
+  font-size: 0.9rem;
 }
 nav > button {
-  font-size: calc(var(--size) - 0.2rem);
+  font-size: 0.8rem;
 }
 h1 {
-  font-size: calc(var(--size) + 1.125rem);
-  font-weight: var(--bold);
+  font-size: 2.125rem;
+  font-weight: 600;
 }
 h2 {
-  font-size: calc(var(--size) + 1.125rem);
+  font-size: 2.125rem;
 }
 .btn {
   width: 100%;
@@ -149,7 +149,7 @@ h2 {
   border: none;
   border-radius: 0.25rem;
   padding: 0.5rem 0.75rem;
-  font-weight: $dsy-bold;
+  font-weight: 600;
 }
 .btn--noBorder {
   color: #fff;
