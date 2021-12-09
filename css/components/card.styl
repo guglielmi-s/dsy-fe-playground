@@ -1,23 +1,25 @@
+@require "./tools/function/pxToRem"
 .card 
     font-family $dsy-family
-    margin-bottom 50px
-    border-radius 12px
-    padding 36px
+    margin-bottom pxToRem(50)
+    border-radius pxToRem(12)
+    padding pxToRem(36)
     box-shadow 0px 2px 15px 0px rgb(228, 228, 228)
     background-color $dsy-primary_text
+    line-height pxToRem(26)
 
 
     &__title 
-        margin calc($dsy-size + 0.5rem)
-        font-size calc($dsy-size + 0.5rem)
+        
+        font-size pxToRem(26)
         font-weight 600
 
 
 
     &__paragraph 
         margin calc($dsy-size + 0.5rem)
-        font-size calc($dsy-size + 0.4rem)
-        font-weight 400
+        font-size pxToRem(24)
+        font-weight $dsy-weight-small
 
 
     &--up 
