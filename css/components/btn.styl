@@ -16,13 +16,14 @@
 		font-weight $dsy-weight-small
 
 	&--primary
-
 		bg-color($dsy-primary)
 		color $dsy-primary_text
 		font-weight $dsy-weight-bold
 
 	&--event
 		border 1px solid $dsy-secondary_text-lg
-		font-size $dsy-size - 0.2rem
+		font-size pxToRem(12)
 		color $dsy-primary
-		padding $dsy-size - 0.7rem
+		padding pxToRem(3) pxToRem(12)
+		font-weight $dsy-weight-bold
+		border: 1px solid $dsy-neutral
