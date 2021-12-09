@@ -197,6 +197,7 @@ h2 {
 }
 .headerContainer {
   font-family: 'Open Sans', sans-serif;
+  line-height: 3rem;
   height: 36rem;
   background-image: radial-gradient(#15aae5 9%, #0b5875 100%);
   display: flex;
@@ -261,9 +262,9 @@ h2 {
 }
 .joinContainer {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: repeat(12, 1fr);
   padding: 50px;
-  background-image: linear-gradient(var(--gradient-color), #fff);
+  background-image: linear-gradient rgba(82,173,209,0.15) #fff;
 }
 .joinContainer__footer {
   margin-top: 50px;
@@ -271,8 +272,8 @@ h2 {
   grid-column-end: 7;
 }
 .joinContainer__footer p {
-  font-size: calc(var(--size) - 0.3rem);
-  color: var(--secondary_text-lg);
+  font-size: 0.7rem;
+  color: #9497a4;
 }
 .card {
   font-family: 'Open Sans', sans-serif;
