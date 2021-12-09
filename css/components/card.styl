@@ -1,39 +1,35 @@
-@require "./tools/function/pxToRem"
-.card 
-    
+.card
     font-family $dsy-family
     margin-bottom pxToRem(50)
     border-radius pxToRem(12)
     padding pxToRem(36)
     box-shadow 0px 2px 15px 0px rgb(228, 228, 228)
-    background-color $dsy-primary_text
-    
+    bg-color($dsy-primary_text)
 
-
-    &__title 
+    &__title
         line-height pxToRem(34)
         font-size pxToRem(26)
         font-weight $dsy-weight-bold
 
 
 
-    &__paragraph 
+    &__paragraph
         line-height pxToRem(24)
         margin pxToRem(24) 0
         font-size pxToRem(24)
         font-weight $dsy-weight-small
 
 
-    &--up 
+    &--up
         grid-column-start 2
         grid-column-end 7
-   
 
-    &--down 
+
+    &--down
         grid-column-start 6
         grid-column-end 11
-    
-   
+
+
 
 
 
