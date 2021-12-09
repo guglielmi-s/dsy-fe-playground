@@ -392,14 +392,15 @@ h2 {
 .cardEvents__calendar {
   border: 1px solid #9497a4;
   border-radius: 0.25rem;
-  padding: 0.5rem 0.625rem;
+  padding: 0.625rem 0.625rem;
   text-align: center;
   margin: 0 0.3125rem;
   text-transform: uppercase;
   font-size: 0.75rem;
 }
 .cardEvents__calendar :nth-child(2) {
-  font-size: 2rem;
+  font-size: 2.125rem;
+  font-weight: 600;
 }
 .cardEvents__details {
   display: flex;
