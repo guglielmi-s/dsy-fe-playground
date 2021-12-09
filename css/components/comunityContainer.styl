@@ -7,17 +7,22 @@
 
 
     &__illustration
-        text-align: center
+        text-align center
 
 
     &__illustration img
-    width 70%
+        width 70%
 
 
     &__footer
-        margin: $dsy-size + 2rem
+        display flex
+        flex-direction column
+        align-items center
+        justify-content center
+        margin $dsy-size + 2rem
 
     &__footer p
+        text-align center
         font-size $dsy-size - 0.3rem
         color $dsy-secondary_text-lg
         margin $dsy-size - 0.3rem 0rem
@@ -25,6 +30,6 @@
 
 .comunityContainer
     > p
-        font-size $dsy-size + 0.4rem
+        font-size: $dsy-size + 0.4rem
         font-weight $dsy-weight-bold
         margin $dsy-size + 0.7rem

@@ -140,7 +140,6 @@ h2 {
   font-size: 2.125rem;
 }
 .btn {
-  width: 100%;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 0.75rem;
@@ -414,4 +413,34 @@ h2 {
   text-transform: uppercase;
   font-size: 0.9rem;
   color: #9497a4;
+}
+.comunityContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 71rem;
+}
+.comunityContainer__illustration {
+  text-align: center;
+}
+.comunityContainer__illustration img {
+  width: 70%;
+}
+.comunityContainer__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+.comunityContainer__footer p {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #9497a4;
+  margin: 0.7rem 0rem;
+}
+.comunityContainer > p {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 1.7rem;
 }
