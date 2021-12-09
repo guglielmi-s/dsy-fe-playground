@@ -394,12 +394,12 @@ h2 {
   border-radius: 0.25rem;
   padding: 0.5rem 0.625rem;
   text-align: center;
-  margin: 0px 5px;
+  margin: 0 0.3125rem;
   text-transform: uppercase;
-  font-size: calc(var(--size) - 0.2rem);
+  font-size: 0.75rem;
 }
 .cardEvents__calendar :nth-child(2) {
-  font-size: calc(var(--size) + 1rem);
+  font-size: 2rem;
 }
 .cardEvents__details {
   display: flex;
@@ -408,11 +408,11 @@ h2 {
   align-items: flex-start;
 }
 .cardEvents__details p {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 .cardEvents__details :nth-child(1) {
   font-weight: 600;
-  font-size: calc(var(--size) + 0.1rem);
+  font-size: 1.125rem;
 }
 .pressContainer {
   height: 10rem;

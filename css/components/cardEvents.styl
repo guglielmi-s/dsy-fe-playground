@@ -15,26 +15,26 @@
         border-radius pxToRem(4)
         padding pxToRem(8) pxToRem(10)
         text-align center
-        margin 0px 5px
+        margin 0 pxToRem(5)
         text-transform uppercase
-        font-size calc(var(--size) - 0.2rem)
+        font-size pxToRem(12)
 
 
     &__calendar :nth-child(2)
-        font-size: calc(var(--size) + 1rem);
+        font-size pxToRem(32)
 
 
     &__details
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: flex-start;
+        display flex
+        flex-direction column
+        justify-content space-around
+        align-items flex-start
 
 
     &__details p 
-        margin-bottom: 8px;
+        margin-bottom pxToRem(8)
     
     &__details :nth-child(1)
-        font-weight 600
-        font-size calc(var(--size) + 0.1rem)
+        font-weight $dsy-weight-bold
+        font-size pxToRem(18)
 
