@@ -229,35 +229,35 @@ h2 {
   position: relative;
 }
 .searchForm__navbar {
-  padding: calc(var(--size) - 0.2rem);
-  height: calc(var(--size) + 1.5rem);
-  width: calc(var(--size) + 13rem);
+  padding: 0.8rem;
+  height: 2.5rem;
+  width: 14rem;
   border: none;
-  border-radius: calc(var(--size) - 0.5rem);
-  background-color: var(--bg-navbar-search);
-  color: var(--text-navbar-search);
+  border-radius: 0.5rem;
+  background-color: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.3);
 }
 .searchForm__input {
-  padding: calc(var(--size) - 0.2rem);
-  font-size: calc(var(--size) - 0.2rem);
-  font-family: var(--family);
-  height: calc(var(--size) + 2.1rem);
-  width: calc(var(--size) + 40rem);
-  margin: calc(var(--size) + 0.3rem);
-  border-radius: calc(var(--size) - 0.7rem);
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  font-family: 'Open Sans', sans-serif;
+  height: 3.1rem;
+  width: 41rem;
+  margin: 1.3rem;
+  border-radius: 0.3rem;
   border: none;
 }
 .searchForm__btn {
   cursor: pointer;
   position: absolute;
   z-index: 3;
-  width: calc(var(--size) + 2rem);
-  height: calc(var(--size) + 2rem);
-  right: calc(var(--size) + 0.3rem);
-  top: calc(var(--size) + 0.3rem);
+  width: 3rem;
+  height: 3rem;
+  right: 1.3rem;
+  top: 1.3rem;
   border: none;
-  border-radius: 0px calc(var(--size) - 0.7rem) calc(var(--size) - 0.7rem) 0px;
-  background-color: var(--primary-lg);
+  border-radius: 0px 0.3rem 0.3rem 0px;
+  background-color: #e3f5fc;
 }
 .joinContainer {
   display: grid;
