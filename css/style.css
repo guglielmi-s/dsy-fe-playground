@@ -274,8 +274,8 @@ h2 {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(12, 1fr);
-  margin-top: 9rem;
-  background-image: linear-gradient rgba(82,173,209,0.15) #fff;
+  padding-top: 9rem;
+  background: linear-gradient(#d7ebf5, #fff);
 }
 .joinContainer__footer {
   margin-top: 3.125rem;
@@ -347,11 +347,14 @@ h2 {
 }
 .partnerContainer__logoBox {
   margin: 1.5rem 2.25rem;
-  padding: 1rem;
+  padding: 1.625rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+.partnerContainer__logoBox img {
+  padding: 1.5rem;
 }
 .partnerContainer p {
   margin: 3rem;
