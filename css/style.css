@@ -294,12 +294,12 @@ h2 {
   font-weight: 400;
 }
 .card--up {
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-column-end: 7;
 }
 .card--down {
   grid-column-start: 6;
-  grid-column-end: 11;
+  grid-column-end: 10;
 }
 .partnerContainer {
   width: 100%;
