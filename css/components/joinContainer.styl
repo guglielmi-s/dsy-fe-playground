@@ -1,18 +1,17 @@
-.joinContainer{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
-    padding: 50px;
-    background-image: linear-gradient(var(--gradient-color),white);
-}
+.joinContainer
+    display grid
+    grid-template-columns auto auto auto auto auto auto auto auto auto auto auto auto
+    padding 50px
+    background-image linear-gradient ($dsy-gradient-color , white)
 
-.joinContainer__footer{
-    margin-top: 50px;
-    grid-column-start: 6 ;
-    grid-column-end: 7 ;
+
+    &__footer
+        margin-top 50px
+        grid-column-start 6 
+        grid-column-end 7 
    
-}
 
-.joinContainer__footer p {
-    font-size: calc(var(--size) - 0.3rem);
-    color: var(--secondary_text-lg)
-}
+
+    &__footer p 
+        font-size $dsy-size - 0.3rem
+        color $dsy-secondary_text-lg
