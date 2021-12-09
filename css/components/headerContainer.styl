@@ -1,33 +1,32 @@
-.headerContainer {
-    font-family: var(--family);
-    height: calc(var(--size) + 35rem);
-    background-image: radial-gradient(var(--primary) 9%, var(--bg-navbar) 100%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: var(--primary_text)
-}
+.headerContainer 
+    font-family $dsy-family
+    height $dsy-size + 35rem
+    background-image radial-gradient($dsy-primary 9%, $dsy-bg-navbar 100%)
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+    color $dsy-primary_text
 
-.headerContainer p {
-    font-size: calc(var(--size) - 0.4rem);
-    margin-top: calc(var(--size) + 2rem)
-}
+    &__list 
+        display flex
+        flex-direction row
+        justify-content space-between
+        align-items center
+        margin: calc($dsy-size - 0.6rem)
 
-.headerContainer__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: calc(var(--size) - 0.6rem);
-}
 
-.headerContainer__list a {
-    color: var(--primary_text);
-    background-color: var(--bg-navbar);
-    padding: calc(var(--size) - 0.7rem) calc(var(--size) - 0.1rem) ;
-    margin: calc(var(--size) - 0.4rem);
-    border-radius: calc(var(--size) + 0.3rem);
-    text-decoration: none;
-    font-size: calc(var(--size) - 0.4rem);
-}
+    &__list a 
+        color $dsy-primary_text
+        background-color $dsy-bg-navbar
+        padding $dsy-size - 0.7rem $dsy-size - 0.1rem
+        margin $dsy-size - 0.4rem
+        border-radius $dsy-size + 0.3rem
+        text-decoration none
+        font-size $dsy-size - 0.4rem
+
+
+.headerContainer p 
+    font-size $dsy-size - 0.4rem
+    margin-top $dsy-size + 2rem
+
