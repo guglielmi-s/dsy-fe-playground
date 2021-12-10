@@ -282,12 +282,14 @@ h2 {
 .joinContainer__footer {
   margin-top: 3.125rem;
   grid-column-start: 6;
-  grid-column-end: 7;
+  grid-column-end: 8;
+  text-align: center;
 }
 .joinContainer__footer p {
   font-size: 0.75rem;
   color: #9497a4;
   font-weight: 400;
+  margin-top: 0.375rem;
 }
 .card {
   font-family: 'Open Sans', sans-serif;
@@ -316,8 +318,8 @@ h2 {
   margin-top: 1.875rem;
 }
 .card--up {
-  grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-start: 3;
+  grid-column-end: 8;
 }
 .card--down {
   grid-column-start: 6;
@@ -354,7 +356,7 @@ h2 {
   justify-content: space-between;
 }
 .partnerContainer__logoBox img {
-  padding: 1.5rem;
+  padding: 0.625rem;
 }
 .partnerContainer p {
   margin: 3rem;
@@ -469,7 +471,6 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 71rem;
 }
 .comunityContainer__illustration {
   text-align: center;
@@ -488,7 +489,7 @@ h2 {
   text-align: center;
   font-size: 0.7rem;
   color: #9497a4;
-  margin: 0.7rem 0rem;
+  margin: 0.375rem;
 }
 .comunityContainer > p {
   font-size: 1.4rem;
