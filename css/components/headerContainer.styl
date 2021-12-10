@@ -1,10 +1,11 @@
-
-
 .headerContainer 
     font-family $dsy-family
+    background-image url(../img/bg-header.png)
+    background-repeat no-repeat
+    background-position center
+    background-size cover
+    padding pxToRem(130)
     line-height pxToRem(42)
-    height pxToRem(720)
-    background-image radial-gradient($dsy-primary 9%, $dsy-bg-navbar 100%)
     display flex
     flex-direction column
     justify-content center
@@ -14,16 +15,15 @@
     &__list 
         display flex
         flex-direction row
-        justify-content space-between
+        flex-wrap nowrap
+        justify-content space-evenly
         align-items center
-        margin pxToRem(24)
-
 
     &__list a 
         color $dsy-primary_text
         bg-color($dsy-bg-navbar)
         padding pxToRem(6) pxToRem(12) 
-        margin pxToRem(12)
+        margin 0 pxToRem(12)
         border-radius pxToRem(17)
         text-decoration none
         font-size pxToRem(12)
@@ -38,7 +38,8 @@
         font-weight $dsy-weight-small   
 
 .headerContainer p
-        font-size $dsy-size - 0.4rem
-        margin $dsy-size + 1rem
+        font-size pxToRem(12)
+        margin-top pxToRem(48)
+        margin-bottom pxToRem(12)
 
 
