@@ -10,28 +10,40 @@
     top 0
     z-index 5
 
+
     &__menuBox
         display flex
         flex-direction row
         align-items center
 
-    &__list 
-        display flex
-        flex-direction row
-        align-items flex-start
-
-
-    &__list a 
-        font-family $dsy-family
-        font-size pxToRem(14)
-        color $dsy-primary_text
-        text-decoration none
-        
-        
+        @media (max-width: $dsy-screen-phone-L)
+            justify-content center
+            
 
     &__btnBox 
         display flex
         flex-direction row
         align-items center
         justify-content flex-end
+
+        @media (max-width: $dsy-screen-phone-L)       
+            display none
+
+    &__list 
+        display flex
+        flex-direction row
+        align-items flex-start
+
+        @media (max-width: $dsy-screen-phone-L)
+            display none
+
+        & a   
+            font-family $dsy-family
+            font-size pxToRem(14)
+            color $dsy-primary_text
+            text-decoration none
+
     
+
+      
+

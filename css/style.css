@@ -184,22 +184,37 @@ h2 {
   flex-direction: row;
   align-items: center;
 }
-.navbar__list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
-.navbar__list a {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.875rem;
-  color: #fff;
-  text-decoration: none;
+@media (max-width: 425px) {
+  .navbar__menuBox {
+    justify-content: center;
+  }
 }
 .navbar__btnBox {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
+}
+@media (max-width: 425px) {
+  .navbar__btnBox {
+    display: none;
+  }
+}
+.navbar__list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+@media (max-width: 425px) {
+  .navbar__list {
+    display: none;
+  }
+}
+.navbar__list a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
+  color: #fff;
+  text-decoration: none;
 }
 .logo {
   height: 1.9rem;
@@ -262,6 +277,11 @@ h2 {
   height: 2.25rem;
   background-color: rgba(255,255,255,0.15);
   color: rgba(255,255,255,0.3);
+}
+@media (max-width: 425px) {
+  .searchForm--navbar input {
+    display: none;
+  }
 }
 .searchForm--header {
   position: relative;
