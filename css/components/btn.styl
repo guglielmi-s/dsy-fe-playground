@@ -15,10 +15,18 @@
 		color $dsy-primary_text
 		font-weight $dsy-weight-small
 
+		@media (max-width: $dsy-screen-tablet)
+				display none
+				margin-right pxToRem(10)
+
 	&--primary
 		bg-color($dsy-primary)
 		color $dsy-primary_text
 		font-weight $dsy-weight-bold
+		@media (max-width: $dsy-screen-tablet)
+			font-size pxToRem(10) 
+			
+
 
 	&--event
 		border 1px solid $dsy-secondary_text-lg
@@ -27,3 +35,12 @@
 		padding pxToRem(3) pxToRem(12)
 		font-weight $dsy-weight-bold
 		border: 1px solid $dsy-neutral
+
+	&--user
+		display none
+		bg-color(inherit)	
+		color $dsy-primary_text
+		font-size pxToRem(24)
+		@media (max-width: $dsy-screen-tablet)
+			display block
+			

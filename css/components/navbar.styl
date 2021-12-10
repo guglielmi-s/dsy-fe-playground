@@ -10,14 +10,27 @@
     top 0
     z-index 5
 
+    
 
     &__menuBox
         display flex
         flex-direction row
         align-items center
 
-        @media (max-width: $dsy-screen-phone-L)
-            justify-content center
+
+        
+            
+        &--burger
+            display none
+            border none
+            background-color inherit
+            cursor pointer
+            font-size pxToRem(24)
+            color $dsy-primary_text
+            @media (max-width: $dsy-screen-tablet)
+                display block
+                margin-right pxToRem(10)
+                
             
 
     &__btnBox 
@@ -26,22 +39,24 @@
         align-items center
         justify-content flex-end
 
-        @media (max-width: $dsy-screen-phone-L)       
+        @media (max-width: $dsy-screen-tablet)
             display none
+            margin-right pxToRem(10) 
+
+        
 
     &__list 
         display flex
         flex-direction row
         align-items flex-start
 
-        @media (max-width: $dsy-screen-phone-L)
-            display none
-
-        & a   
+        a   
             font-family $dsy-family
             font-size pxToRem(14)
             color $dsy-primary_text
             text-decoration none
+            @media (max-width: $dsy-screen-tablet)
+                display none
 
     
 
