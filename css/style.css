@@ -381,9 +381,9 @@ h2 {
   }
 }
 .joinContainer__footer {
-  margin-top: 3.125rem;
-  grid-column-start: 6;
-  grid-column-end: 8;
+/* margin-top pxToRem(50) */
+  grid-column-start: 5;
+  grid-column-end: 9;
   text-align: center;
 }
 @media (max-width: 768px) {
@@ -549,7 +549,11 @@ h2 {
   overflow: auto;
   white-space: nowrap;
   width: 100%;
-  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .carousel--events {
+    justify-content: space-between;
+  }
 }
 @media (max-width: 768px) {
   .carousel--comunity {
