@@ -1,0 +1,64 @@
+.navbar 
+    bg-color($dsy-bg-navbar)
+    height pxToRem(60)
+    display flex
+    flex-direction row
+    justify-content space-between
+    align-items center
+    padding 0 pxToRem(4)
+    position sticky
+    top 0
+    z-index 5
+
+    
+
+    &__menuBox
+        display flex
+        flex-direction row
+        align-items center
+
+
+        
+            
+        &--burger
+            display none
+            border none
+            background-color inherit
+            cursor pointer
+            font-size pxToRem(24)
+            color $dsy-primary_text
+            @media (max-width: $dsy-screen-tablet)
+                display block
+                margin-right pxToRem(10)
+                
+            
+
+    &__btnBox 
+        display flex
+        flex-direction row
+        align-items center
+        justify-content flex-end
+
+        @media (max-width: $dsy-screen-tablet)
+            display none
+            margin-right pxToRem(10) 
+
+        
+
+    &__list 
+        display flex
+        flex-direction row
+        align-items flex-start
+
+        a   
+            font-family $dsy-family
+            font-size pxToRem(14)
+            color $dsy-primary_text
+            text-decoration none
+            @media (max-width: $dsy-screen-tablet)
+                display none
+
+    
+
+      
+

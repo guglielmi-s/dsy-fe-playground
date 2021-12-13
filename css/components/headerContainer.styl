@@ -1,0 +1,65 @@
+.headerContainer 
+    font-family $dsy-family
+    background-image url(../img/bg-header.png)
+    background-repeat no-repeat
+    background-position center
+    background-size cover
+    padding pxToRem(130)
+    /* line-height pxToRem(42) */
+    display flex
+    flex-direction column
+    justify-content center
+    align-items center
+    text-align center 
+    color $dsy-primary_text
+    @media (max-width: $dsy-screen-tablet)
+            padding pxToRem(60) 
+
+
+        h1 
+                font-size pxToRem(34)
+                font-weight $dsy-weight-bold   
+                margin-bottom pxToRem(20) 
+       
+        h2
+                font-size pxToRem(34)
+                font-weight $dsy-weight-small 
+                @media(max-width: $dsy-screen-tablet)
+                        font-size pxToRem(22)
+                        line-height pxToRem(32)
+       
+        p
+                font-size pxToRem(12)
+                margin-top pxToRem(48)
+                margin-bottom pxToRem(12)
+        
+
+        &__list 
+                display flex
+                flex-direction row
+                flex-wrap nowrap
+                justify-content space-around
+                align-items center 
+                overflow auto
+                white-space nowrap 
+                
+                @media (max-width: $dsy-screen-tablet)
+                        justify-content space-between
+                        width 100%
+                a 
+                        color $dsy-primary_text
+                        bg-color($dsy-bg-navbar)
+                        display inline-block             
+                        border-radius pxToRem(17)
+                        text-decoration none
+                        font-size pxToRem(12)
+                        padding pxToRem(6) pxToRem(12)
+                        margin 0 pxToRem(6)
+                        font-weight $dsy-weight-small
+                        @media (max-width: $dsy-screen-tablet)
+                                font-size pxToRem(10)
+                                margin 0 pxToRem(3)
+                                
+                        
+
+

@@ -1,5 +1,5 @@
 {
-  "name": " ",
+  "name": "dsy-fe-playground",
   "version": "0.0.1",
   "description": "",
   "keywords": [
@@ -16,5 +16,8 @@
     "html-webpack-plugin": "^5.5.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.5.0"
+  },
+  "dependencies": {
+    "stylus": "^0.55.0"
   }
 }
