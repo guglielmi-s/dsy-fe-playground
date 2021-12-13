@@ -475,15 +475,14 @@ h2 {
   align-items: center;
 }
 .card--comunity {
-  max-width: 23.75rem;
   display: flex;
   flex-direction: column;
-  margin: 0.625rem;
+  margin: 0.3125rem;
 }
 .card--comunity > p {
   font-size: 0.875rem;
   font-style: italic;
-  line-height: 1.375rem;
+/* line-height pxToRem(22) */
 }
 .partnerContainer {
   margin: 3.75rem 0;
@@ -510,7 +509,7 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   overflow: auto;
   white-space: nowrap;
@@ -524,13 +523,7 @@ h2 {
 .partnerContainer__logoBox img {
   width: 100%;
   display: inline-block;
-  justify-content: space-around;
-}
-@media (max-width: 768px) {
-  .partnerContainer__logoBox {
-    width: 100%;
-    justify-content: space-between;
-  }
+  padding: 0 0.25rem;
 }
 .eventsContainer {
   padding: 1.875rem;
@@ -548,12 +541,21 @@ h2 {
   font-size: 1.125rem;
 }
 .carousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.carousel--events {
   overflow: auto;
   white-space: nowrap;
   width: 100%;
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .carousel--comunity {
+    flex-direction: column;
+    padding: 1.25rem;
+  }
 }
 .cardEvents {
   background-color: #fff;
@@ -664,14 +666,14 @@ h2 {
   justify-content: center;
   margin: 3rem;
 }
-.comunityContainer__footer p {
-  text-align: center;
+.comunityContainer__footer > p {
   font-size: 0.875rem;
   color: #9497a4;
-  margin: 0.375rem;
+  font-weight: 400;
+  margin-top: 0.375rem;
 }
-.comunityContainer__footer p > p {
-  font-size: 1.375rem;
-  font-weight: 600;
-  margin: 1.625rem 0;
+@media (max-width: 768px) {
+  .comunityContainer__footer > p {
+    font-size: 0.625rem;
+  }
 }

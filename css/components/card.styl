@@ -5,6 +5,7 @@
     padding pxToRem(36)
     box-shadow( 0px, 1px , 15px, #00000014, 5px, 1px , 15px, #00000014 ) 
     bg-color($dsy-primary_text)
+    
     @media (max-width: $dsy-screen-tablet)
         padding pxToRem(18)
 
@@ -12,6 +13,7 @@
         line-height pxToRem(34)
         font-size pxToRem(26)
         font-weight $dsy-weight-bold
+        
         @media (max-width: $dsy-screen-tablet)
             font-size pxToRem(13) 
             line-height pxToRem(17)
@@ -23,6 +25,7 @@
         margin pxToRem(24) 0
         font-size pxToRem(24)
         font-weight $dsy-weight-small
+        
         @media (max-width: $dsy-screen-tablet)
             font-size pxToRem(12) 
             line-height pxToRem(18)
@@ -35,45 +38,38 @@
         align-items center
         margin-top pxToRem(30)
 
-
     &--up
         grid-column-start 3
         grid-column-end 8
+        
         @media (max-width: $dsy-screen-tablet)
             grid-column-start 3
             grid-column-end 11
             
-           
- 
-
     &--down
         grid-column-start 6
         grid-column-end 11
+        
         @media (max-width: $dsy-screen-tablet)
             grid-column-start 3
             grid-column-end 11
            
-           
-
-   
     &__author
         display flex
         flex-direction row
         justify-content center
         align-items center
     
-
     &--comunity
-        max-width pxToRem(380)
         display flex
         flex-direction column
-        margin pxToRem(10)
-
-    &--comunity 
+        margin pxToRem(5)
+        
         > p
             font-size pxToRem(14)
             font-style italic
-            line-height pxToRem(22)
+            /* line-height pxToRem(22) */
+        
     
 
 

@@ -21,15 +21,11 @@
         justify-content center
         margin pxToRem(48)
 
-    &__footer p
-        text-align center
-        font-size pxToRem(14)
-        color $dsy-secondary_text-lg
-        margin pxToRem(6)
-
-
-
         > p
-            font-size: pxToRem(22)
-            font-weight $dsy-weight-bold
-            margin pxToRem(26) 0
+            font-size pxToRem(14)
+            color $dsy-secondary_text-lg
+            font-weight $dsy-weight-small 
+            margin-top pxToRem(6)
+            
+            @media (max-width: $dsy-screen-tablet)
+                font-size pxToRem(10)
