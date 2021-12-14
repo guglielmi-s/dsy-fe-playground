@@ -18,5 +18,5 @@ function getDaysList (month, year){
    return result
 }
 
-console.log(getDaysList(159, 2016))
+console.log(getDaysList(8, 2016))
 
