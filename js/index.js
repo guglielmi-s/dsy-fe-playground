@@ -7,6 +7,6 @@ The characters wrapped between two single quotes characters
 a quoted sequence, represent a 'real' single quote. (see the last example) */
 
 console.log(format(new Date(), "'Today is a' eeee"));
-
+console.log("prova")
 console.log(R.isNil([]));
 
