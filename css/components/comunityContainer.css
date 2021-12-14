@@ -2,8 +2,10 @@
   
     display: flex;
     flex-direction: column;
+    margin: calc(var(--size) + 1rem);
+    padding: calc(var(--size) + 1rem);
     align-items: center;
-    height: calc(var(--size) + 70rem);
+    height: calc(var(--size) + 50rem);
 
 
 }
@@ -15,6 +17,7 @@
 
 .comunityContainer__illustration {
     text-align: center;
+    margin-bottom: calc(var(--size) + 2rem);
 }
 
 .comunityContainer__illustration img {
