@@ -1,4 +1,4 @@
-import { format, isBefore } from "date-fns";
+import { format } from "date-fns";
 import * as R from "ramda";
 
 /* 
@@ -10,14 +10,13 @@ console.log(format(new Date(), "'Today is a' eeee"));
 console.log("prova")
 console.log(R.isNil([]));
 
+/*
 
-/* Js Excercies: Total price #2 */
+reare un metodo che riceve un valore iniziate, uno finale e un range.
+Ritorna un array di valori partendo dal valore iniziale fino a quello finale aggiungendo il range:
 
-//Crea una funzione che calcoli il prezzo totale partendo da questo carrello di dati.
+*/
 
-
-
- 
 function rangeStep(start, range, stop) {
     var arr= []
     for(let i=start; i<=stop; i+=range) {
