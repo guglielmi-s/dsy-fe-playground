@@ -1,4 +1,3 @@
-import { format, getDaysInMonth, getMonth, getYear } from "date-fns";
 import * as R from "ramda";
 
 
@@ -65,15 +64,14 @@ const cart = [{
 }]
 
 function getTotalPrice(arr) {
-    let price = [];
-    arr.forEach(p => {
-        price.push(p.price)
-    })
+    var price = [];
+    const pushing = p => price.push(p.price)
+    R.map(pushing, arr)
     const risultato = parseFloat(R.sum(price)).toFixed(2)
     console.table(price)
     return risultato + " €"
 }
-let prova = getTotalPrice(cart)
+const prova = getTotalPrice(cart)
 console.log(prova)
 
 console.log('*****************************************')
