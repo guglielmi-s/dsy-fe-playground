@@ -13,10 +13,17 @@ var year = getYear(date);
 
 console.log('mese =' + month + ' ' + 'anno = ' + year) */
 
-function getDaysList (month, year){
-   var result = getDaysInMonth(new Date(year, month))
-   return result
-}
+function getDaysList(month, year) {
 
-console.log(getDaysList(8, 2016))
+    /*if ((R.is(String, year) || R.is(String, month)) && (month < 1 || month > 12)&& */
+
+    if (year < 1492) {
+        console.log("Scrivi il mese o l'anno in cifre, ad es: Gennaio = 1");
+    } else {
+
+        var result = (0, _dateFns.getDaysInMonth)(new Date(year, month + 1));
+        return result;
+    }
+}
+console.log(getDaysList(1, 1235));
 
