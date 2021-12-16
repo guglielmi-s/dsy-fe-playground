@@ -21,5 +21,4 @@ function aggGio (data, num){
 
     return formatDate(calc)
 }
-
 console.log(aggGio(new Date(), 40))
