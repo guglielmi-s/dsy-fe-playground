@@ -1,5 +1,8 @@
 import * as R from "ramda";
 
+/*creare un metoto che restituisce un nuovo array con gli elementi che hanno 
+la chiave uguale a false*/
+
 const notesList = [
   {
     title: "Buy milk and bread",
@@ -32,3 +35,9 @@ const notesList = [
     archived: false,
   },
 ];
+
+const isFalse = a => a.archived === false;
+
+const notesFalse = R.filter(isFalse, notesList);
+
+console.log(notesFalse);
