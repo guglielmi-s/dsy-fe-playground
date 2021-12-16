@@ -36,8 +36,8 @@ const notesList = [
   },
 ];
 
-const isFalse = a => a.archived === false;
+const isFalse = R.propEq('archived', false)
 
-const notesFalse = R.filter(isFalse, notesList);
+const notesFalse = R.filter(isFalse, notesList)
 
 console.log(notesFalse);
