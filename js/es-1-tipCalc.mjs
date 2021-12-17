@@ -22,6 +22,7 @@ function aggGio(data, num) {
 console.log(aggGio('12/11/2021', 3))
 
 
+
 // Coding Challenge #4
 /*
 Steven wants to build a very simple tip calculator for whenever he goes eating in a restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
@@ -44,4 +45,3 @@ function tipCalculator(bill) {
   
 }
 tipCalculator(321)
-
