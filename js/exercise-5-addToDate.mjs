@@ -11,14 +11,12 @@ import * as R from "ramda";
   */
 
 function aggGio (data, num){
-    let mydate = new Date()
-    mydate = data
-    const calc = addDays(data, num)
-
+    let mydate = new Date(data)
+    const calc = addDays(mydate, num)
     const formatDate = (data) => {
     let x = format(data, 'MM/dd/yyyy');
-    return x}
-
+    return x
+    }
     return formatDate(calc)
 }
-console.log(aggGio(new Date(), 40))
+console.log(aggGio('12/11/2021', 3))
