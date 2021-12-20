@@ -10,7 +10,7 @@ import * as R from "ramda";
  somma quel valore come giorni alla data.
   */
 
-function addToDate (date, num){
+function addDaysToDate (date, num){
   if(R.is(Number, num) && (num > 0) && (num === parseInt(num,10))){
     let mydate = new Date(date);
     const result = addDays(mydate, num);
@@ -28,4 +28,4 @@ const formatDateMDY = (date) => {
   return formatDate
   }
 
-console.log(addToDate(new Date(), 7));
+console.log(addDaysToDate(new Date(), 7));
