@@ -26,9 +26,14 @@ const num2 = [3,4,5];
 console.log(filteredArray)
 }
 (mergeRemove(num1,num2)) */
-function mergeRemove(arr1, arr2) {
-const result = R.uniq(R.concat(arr1, arr2))
-    return result;
+function mergeArrays(arr1, arr2) {
+    if(R.is(Object, arr1) && R.is(Object, arr2) && !R.isEmpty(arr1) && !R.isEmpty(arr2)){
+        const result = R.uniq(R.concat(arr1, arr2));
+        return result
+    } else {
+        console.log('bau')
+    }
+    
 }
-const marge = mergeRemove(num1,num2)
-console.log(marge)
+const arrMerged = mergeArrays(num1,num2)
+console.log(arrMerged)
