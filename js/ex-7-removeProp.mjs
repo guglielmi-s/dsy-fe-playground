@@ -13,9 +13,11 @@ Expected { continent: 'Asia', region: 'Kansai' }*/
 
 
 function filterObjByKey(myObj) {
-    if (R.is(Object, {})) {
+    if (R.is(Object, myObj)) {
         const remove = R.omit(["country"], myObj);
         return remove;
+    } else {
+        console.log('Questo non è un oggetto!!!')
     }
 }
 const omitted = filterObjByKey(obj);
