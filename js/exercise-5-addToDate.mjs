@@ -10,13 +10,17 @@ import * as R from "ramda";
  somma quel valore come giorni alla data.
   */
 
-function aggGio (data, num){
-    let mydate = new Date(data)
-    const calc = addDays(mydate, num)
-    const formatDate = (data) => {
-    let x = format(data, 'MM/dd/yyyy');
-    return x
-    }
-    return formatDate(calc)
+function addToDate (date, num){
+    let mydate = new Date(date);
+    const result = addDays(mydate, num);
+    const formatResult = formatDateMDY(result)
+    return formatResult
 }
-console.log(aggGio('12/11/2021', 3))
+
+const formatDateMDY = (date) => {
+  let formatDate = format(date, 'MM/dd/yyyy');
+
+  return formatDate
+  }
+
+console.log(addToDate(new Date(), 4));
