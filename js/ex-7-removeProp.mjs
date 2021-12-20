@@ -10,9 +10,13 @@ con la  chiave 'country'
 myFunction({ continent: 'Asia', country: 'Japan', region: 'Kansai' })
 Expected { continent: 'Asia', region: 'Kansai' }*/
 
-function removeKey(myObj) {
-  const remove = R.omit(["country"], myObj);
-  return remove;
+
+
+function filterObjByKey(myObj) {
+    if (R.is(Object, {})) {
+        const remove = R.omit(["country"], myObj);
+        return remove;
+    }
 }
-const omitted = removeKey(obj);
+const omitted = filterObjByKey(obj);
 console.log(omitted);
