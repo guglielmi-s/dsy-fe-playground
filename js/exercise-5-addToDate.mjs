@@ -11,10 +11,15 @@ import * as R from "ramda";
   */
 
 function addToDate (date, num){
+  if(R.is(Number, num) && (num > 0) && (num === parseInt(num,10))){
     let mydate = new Date(date);
     const result = addDays(mydate, num);
-    const formatResult = formatDateMDY(result)
+    const formatResult = formatDateMDY(result);
     return formatResult
+    } else {
+    console.log('Inserisci un numero intero e maggiore di 0')
+  }
+
 }
 
 const formatDateMDY = (date) => {
@@ -23,4 +28,4 @@ const formatDateMDY = (date) => {
   return formatDate
   }
 
-console.log(addToDate(new Date(), 4));
+console.log(addToDate(new Date(), 7));
