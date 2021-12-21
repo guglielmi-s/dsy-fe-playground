@@ -10,11 +10,18 @@ arrayOfMultiples(7, 5) ➞ [7, 14, 21, 28, 35]
  */
 
 const arrayOfMultiples = (a, b) => {
-  var multiples = [];
-  for (let i = 1; i <= b; i++) {
-    multiples.push(a * i)
-  }
-  console.table({ multiples })
+  const multiples = Array(b).fill().map((elem, i) => (i+1) * a)
+  return multiples
 }
-arrayOfMultiples(9, 10)
+console.log(arrayOfMultiples(7, 5))
+console.log(arrayOfMultiples(8,3))
+console.table(arrayOfMultiples(6,6))
+ 
+
+
+
+
+/* prova ad usare .map per ciclare l array usando l indice per capire quando fermarti. map(element, index)
+ */
+
 
