@@ -4,24 +4,17 @@ import * as R from "ramda";
 
 
 /* 
+creare funzione che riceve due numeri come argomenti (num, length) e ritorna un array di multipli di num fino a che la lunghezza dell'array è uguale a length.
 
-Create a function that takes two numbers as arguments (num, length) and returns an array of multiples of num until the array length reaches length.
-Examples
 arrayOfMultiples(7, 5) ➞ [7, 14, 21, 28, 35]
-
-arrayOfMultiples(12, 10) ➞ [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]
-
-arrayOfMultiples(17, 6) ➞ [17, 34, 51, 68, 85, 102]
-
  */
-/* const multply = (x,y) => {x*y}; */
 
-function arrayOfMultiples(a, b) {
-  let arr = [];
+const arrayOfMultiples = (a, b) => {
+  var multiples = [];
   for (let i = 1; i <= b; i++) {
-    const result = a * i;
-    arr.push(result);
+    multiples.push(a * i)
   }
- return arr
+  console.table({ multiples })
 }
-console.log(arrayOfMultiples(7, 5))
+arrayOfMultiples(9, 10)
+
