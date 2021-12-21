@@ -9,6 +9,7 @@ creare funzione che riceve due numeri come argomenti (num, length) e ritorna un 
 arrayOfMultiples(7, 5) ➞ [7, 14, 21, 28, 35]
  */
 
+
 const arrayOfMultiples = (a, b) => {
   const multiples = Array(b).fill().map((elem, i) => (i+1) * a)
   return multiples
@@ -23,5 +24,4 @@ console.table(arrayOfMultiples(6,6))
 
 /* prova ad usare .map per ciclare l array usando l indice per capire quando fermarti. map(element, index)
  */
-
 
