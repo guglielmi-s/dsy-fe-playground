@@ -5,8 +5,8 @@ Creare una funzione che concatena n array (dove n è variabile)
 concat([1, 2, 3], [4, 5], [6, 7]) ➞ [1, 2, 3, 4, 5, 6, 7] 
 */
 const [a, b, c, d, e] = arrList;
-const concatArr = (...n) => {
+const concatArr = (x, y, ...n) => {
     let myarr = [];
-    return myarr.concat(...n)
+    return myarr.concat(x, y, ...n)
 }
-console.log(concatArr(d, e))
+console.log(concatArr(d, e, a, b))

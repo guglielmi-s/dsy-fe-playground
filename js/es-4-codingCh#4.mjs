@@ -73,7 +73,14 @@ const calcTot = (bill, tip) => {
 }
 calcTot(bills, tips)
 
-
+const arrayOfMultiples = (a, b) => {
+  var multiples = [];
+  for (let i = 1; i <= b; i++) {
+    multiples.push(a * i)
+  }
+  console.table({ multiples })
+}
+arrayOfMultiples(9, 10)
 
 
 
