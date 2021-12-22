@@ -1,16 +1,12 @@
-import { format, addDays } from "date-fns";
-
 import * as R from "ramda";
-import { arr1, arr2, arr3, arr4, arr5 } from "./arrList.mjs";
-
+import arrList from "./arrList.mjs";
 /* 
 Creare una funzione che concatena n array (dove n è variabile)
-
 concat([1, 2, 3], [4, 5], [6, 7]) ➞ [1, 2, 3, 4, 5, 6, 7] 
-
 */
-const concat = ( m, o) => {
-    const r = R.concat( m, o)
-    console.table(r)
+const [a, b, c, d, e] = arrList;
+const concatArr = (x, y, ...n) => {
+    let myarr = [];
+    return myarr.concat(x, y, ...n)
 }
-concat(arr1, arr2, arr5)
+console.log(concatArr(d, e, a, b))
