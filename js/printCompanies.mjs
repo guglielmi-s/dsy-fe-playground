@@ -14,3 +14,7 @@ companies.forEach(company => console.log(company.name));
 console.log('---Ramda---')
 const printName = x => console.log(x.name)
 const onlyName = R.forEach(printName, companies);
+
+
+
+
