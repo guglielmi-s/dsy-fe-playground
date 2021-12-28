@@ -3,8 +3,8 @@ import { companies } from "./companies.mjs";
 
 /* Exercise 4: ordina le compagnie partendo da quelle più vecchie */
 
-const sortFromOlderToYounger = R.sortBy(R.prop('start'))
-console.log(sortFromOlderToYounger(companies))
+const sortByStart = R.sortBy(R.prop("start"))
+console.log(sortByStart(companies))
 
 console.log("------------JS-----------")
 

@@ -11,12 +11,12 @@ const printRetail = companies.forEach(company => {
 
 console.log('---RAMDA---')
 
-const printRetails = elem => {
+/* const filtByCategory = elem => {
     if (elem.category === 'Retail') {
-        console.log(elem.name)
-        //return elem.name -> restituisce tutto l'array. perchè?
+        return elem.name 
     }
-}
+} */
 
-const onlyRetail = R.forEach(printRetails, companies)
-//console.log(onlyRetail) 
+const filtByCategory = R.propEq('category', 'Retail')
+const onlyCategory = R.filter(filtByCategory, companies)
+console.log(onlyCategory) 

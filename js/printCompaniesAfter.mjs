@@ -11,11 +11,10 @@ companies.forEach(company => {
 
 console.log('----------GLAMDA----------')
 
-const printAfter = p => {
-    if (p.start > 1987) {
-      console.log(p.name)
+const filtByYear = company => {
+    if (R.gt(company.start, 1987)) {
+      return company.name
     }
-}
-R.forEach(printAfter, companies)
+} 
 
-
+console.log(R.filter(filtByYear, companies));
