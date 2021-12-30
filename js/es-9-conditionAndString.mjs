@@ -5,5 +5,7 @@
 const sayHello = (name, num) => {
     num === 1 && console.log(`Hello ${name[0].toUpperCase()}${name.slice(1)}`);
     num === 0 && console.log(`Bye ${name[0].toUpperCase()}${name.slice(1)}`);
+    // c'è sicuramente un altro modo per non ricopiare tutto il codice 
+    
 }
 sayHello('adolfo', 1)
