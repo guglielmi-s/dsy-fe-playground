@@ -17,6 +17,6 @@ const sayHello =(name, num) =>{
     return  num === 0 ?  `Bye ${toUpper(name)}` : `Hello ${toUpper(name)}`
 }
 console.log(sayHello('adolfo',1));
-console.log(sayHello('giggi', 0));
+console.log(sayHello('giggio', 0));
 
 
