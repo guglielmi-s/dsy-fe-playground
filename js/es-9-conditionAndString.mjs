@@ -14,8 +14,9 @@ const toUpper = (str) =>{
     return `${str[0].toUpperCase()}${str.slice(1)}`
 }
 const sayHello =(name, num) =>{
-   return  num === 0 ?  `Bye ${toUpper(name)}` : `Hello ${toUpper(name)}`
+    return  num === 0 ?  `Bye ${toUpper(name)}` : `Hello ${toUpper(name)}`
 }
-console.log(sayHello('adolfo',1))
+console.log(sayHello('adolfo',1));
+console.log(sayHello('giggi', 0));
 
 
